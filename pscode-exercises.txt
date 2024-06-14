@@ -1,0 +1,56 @@
+// Exercise 1: Calculate the Sum of Two Numbers
+
+// Prompt the user to enter two numbers
+input num1
+input num2
+
+// Calculate the sum of the two numbers
+sum = num1 + num2
+
+// Output the result
+output "The sum of", num1, "and", num2, "is", sum
+
+// Exercise 2: Check if a Number is Even or Odd
+
+// Prompt the user to enter a number
+input num
+
+// Check if the number is even or odd
+if num % 2 == 0 then
+    output num, "is even"
+else
+    output num, "is odd"
+
+// Exercise 3: Perform Multiple Operations on Five Numbers
+
+// Initialize variables
+total = 0
+average = 0
+minimum = infinity
+maximum = -infinity
+
+// Loop to read in 5 numbers
+for i from 1 to 5 do
+    // Prompt the user to enter a number
+    input number
+    
+    // Calculate total sum
+    total = total + number
+    
+    // Check for minimum number
+    if number < minimum then
+        minimum = number
+    
+    // Check for maximum number
+    if number > maximum then
+        maximum = number
+
+// Calculate average
+average = total / 5
+
+// Output the results
+output "The average of the five numbers is", average
+output "The smallest number is", minimum
+output "The largest number is", maximum
+
+-- END --
